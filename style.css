@@ -88,6 +88,8 @@ div.trunk {
     top: 65px;
     left: 11.7rem;
 }
+
+
 /*patas*/
 
 .behind:before {
@@ -113,4 +115,25 @@ div.trunk {
     background: #777;
     border-radius: 5px;
     transform: rotate(-90deg);
+}
+
+.ear{
+
+}
+.eye {
+    border-radius: 100%;
+    background-color: white;
+    height: 1.2rem ; 
+    width: 1.2rem;
+   	top: 5rem;
+   	left: 23rem;
+}
+div.iris{
+	/*position: relative;*/
+	margin-left:.3rem;
+	margin-top: .3rem;
+	background-color: black; 
+	border-radius: 100%; 
+	height: .7rem;
+	width: .7rem;
 }
