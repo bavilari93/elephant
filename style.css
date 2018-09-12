@@ -59,13 +59,14 @@ div.polka.five {
 }
 
 div.trunk {
-	margin-top: 10rem;
+    margin-top: 10rem;
     border-radius: 100%;
     width: 200px;
     height: 100px;
-    background-color:#777;
+    background-color: #777;
     border-style: solid;
     border-width: 100px 0 0 0;
+    transform: rotate(190deg);
 }
 
 .trunk:before {
@@ -77,4 +78,39 @@ div.trunk {
     border-radius: 100%;
     width: 32px;
     height: 32px;
+}
+
+.behind {
+    border-radius: 100%;
+    width: 160px;
+    height: 180px;
+    background-color: #777;
+    top: 65px;
+    left: 11.7rem;
+}
+/*patas*/
+
+.behind:before {
+    position: absolute;
+    top: 168px;
+    left: 87px;
+    /*this one is use to create new content out from one original*/
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #777;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+}
+
+.behind:after {
+    position: absolute;
+    top: 168px;
+    left: 50px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #777;
+    border-radius: 5px;
+    transform: rotate(-90deg);
 }
